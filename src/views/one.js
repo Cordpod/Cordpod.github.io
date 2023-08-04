@@ -26,7 +26,7 @@ function One() {
 
   return (
     <div>
-      <p>challenge 1:</p>
+      <p>challenge 1: TEST TEST</p>
       
       {showSuccess ? (
         <div>

@@ -1,8 +1,9 @@
 import React, {useState} from "react";
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css';
-import {link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function Troll() {
 
@@ -33,6 +34,7 @@ return (
     {showSuccess ? (
       <div>
       <p className="success-message">and thank you </p>
+      <Button variant="dark"><Link to={"/intermediate"}>Here?</Link></Button>{' '}
       <li><a class="nav-link js-scroll-trigger" href="/intermediate">here??</a></li>
       </div>
     ) : (
