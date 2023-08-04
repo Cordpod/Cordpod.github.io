@@ -34,8 +34,8 @@ return (
     {showSuccess ? (
       <div>
       <p className="success-message">and thank you </p>
-      <Button variant="dark"><Link to={"/intermediate"}>Here?</Link></Button>{' '}
-      <li><a class="nav-link js-scroll-trigger" href="/intermediate">here??</a></li>
+      <Button variant="dark"><Link to={"/intermediate"}>this hertz man</Link></Button>{' '}
+      {/* <li><a class="nav-link js-scroll-trigger" href="/intermediate">here??</a></li> */}
       </div>
     ) : (
       <div>

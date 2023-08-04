@@ -11,7 +11,8 @@ import { useState } from "react";
 
 function Home() {
   return (
-    <div>
+    <div className="wow">
+      <div className="options">
       You see 2 buttons. Which one?
 
       <div>
@@ -19,7 +20,10 @@ function Home() {
         <img src={door} className="door"/> */}
         <Button variant="dark"><Link to={"/troll"}>1</Link></Button>{' '}
         <Button variant="dark"><Link to={"/one"}>2</Link></Button>{' '}
-
+      </div>
+      </div>
+      <div className="disclaimer">
+      **do rmb to write down any passwords u find in case u reload the page. we wont save your progress** dont try to hack the webpage pls
       </div>
     </div>
   );

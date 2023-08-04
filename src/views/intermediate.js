@@ -2,6 +2,8 @@ import React, {useState} from "react";
 import Form from "react-bootstrap/Form";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css';
+import { Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
 function Intermediate() {
 
@@ -31,11 +33,13 @@ function Intermediate() {
       {showSuccess ? (
         <div>
         <p className="success-message"></p>
-        <li><a class="nav-link js-scroll-trigger" href="/actual">i want to go paRaSAilng</a></li>
+        {/* <li><a class="nav-link js-scroll-trigger" href="/actual">i want to go paRaSAilng</a></li> */}
+        
+        <Button variant="dark"><Link to={"/actual"}>i wanna go paRaSAiling</Link></Button>{' '}
         </div>
       ) : (
         <div>
-    <p>this hertz man</p>
+    <p></p>
           <pre>
       <p>Uwwdgbaeo jd utt pedke tukm dh uxaujade, jzrgr am ed kuf u lrr mzdstb lr ultr jd htf. Ajm kaeom ugr jdd mvutt jd orj ajm huj tajjtr ldbf dhh jzr ogdseb. Jzr lrr, dh wdsgmr, htarm uefkuf lrwusmr lrrm bde'j wugr kzuj zsvuem jzaep am avcdmmaltr. Frttdk, ltuwp. Frttdk, ltuwp. Frttdk, ltuwp. Frttdk, ltuwp. Ddz, ltuwp ueb frttdk! Trj'm mzupr aj sc u tajjtr. <br />
 

@@ -37,7 +37,7 @@ function Actual() {
       ) : (
         <div>
             <div>
-              <p>Smth from before:</p>
+              <p>Smth from before: ?</p>
                 <p>Public key for the challenge:
 MBswDQYJKoZIhvcNAQEBBQADCgAwBwICAYcCAQM=</p>
                 <p>e: 3</p>
